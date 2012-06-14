@@ -21,7 +21,10 @@ PRODUCT_COPY_FILES += \
     device/htc/evita/recovery/sbin/choice_fn:recovery/root/sbin/choice_fn \
     device/htc/evita/recovery/sbin/detect_key:recovery/root/sbin/detect_key \
     device/htc/evita/recovery/sbin/offmode_charging:recovery/root/sbin/offmode_charging \
-    device/htc/evita/recovery/sbin/power_test:recovery/root/sbin/power_test
+    device/htc/evita/recovery/sbin/power_test:recovery/root/sbin/power_test \
+    device/htc/evita/recovery/sbin/am:recovery/root/sbin/am \
+    device/htc/evita/recovery/sbin/app_process:recovery/root/sbin/app_process \
+    device/htc/evita/recovery/sbin/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh
 
 $(call inherit-product, build/target/product/full.mk)
 
