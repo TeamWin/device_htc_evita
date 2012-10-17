@@ -49,4 +49,4 @@ TARGET_RECOVERY_INITRC := device/htc/evita/recovery/init-twrp.rc
 
 # TWRP specific build flags
 DEVICE_RESOLUTION := 720x1280
-TW_FLASH_FROM_STORAGE := true
+BOARD_HAS_NO_REAL_SDCARD := true

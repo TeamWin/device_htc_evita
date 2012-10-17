@@ -28,3 +28,4 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full.mk)
 
+PRODUCT_NAME := evita
